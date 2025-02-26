@@ -1,8 +1,5 @@
 # 🚗 Car Rental System with AI Features  
 
-![Car Rental Banner](https://via.placeholder.com/1200x400?text=Car+Rental+System)  
-
-> **A smart car rental platform with AI-driven pricing, sentiment analysis, and car recommendations.**  
 
 ---
 
@@ -15,16 +12,14 @@
 - [📦 Installation & Setup](#-installation--setup)  
 - [💡 Usage](#-usage)  
 - [🔐 Authentication Note](#-authentication-note)  
-- [📸 Screenshots](#-screenshots)  
-- [🤝 Contributors](#-contributors)  
-- [📜 License](#-license)  
+ 
 
 ---
 
 ## 🚀 About the Project  
 
 The **Car Rental System** is a feature-rich web application built using **React, TypeScript, and AI-based functionalities**.  
-It allows users to rent cars efficiently while utilizing AI for **dynamic pricing, sentiment analysis, and car recommendations**.  
+It allows users to rent cars efficiently while utilizing AI for **dynamic pricing, sentiment analysis, and chat bot**.  
 
 ---
 
@@ -33,22 +28,20 @@ It allows users to rent cars efficiently while utilizing AI for **dynamic pricin
 ✔ **User Authentication** (Handled by a separate backend)  
 ✔ **Browse Cars** with filtering options (category, price, availability)  
 ✔ **Dynamic Pricing AI** (Prices adjust based on demand, season, and availability)  
-✔ **Car Sentiment Analysis AI** (Detects inappropriate words in names)  
-✔ **Car Recommendations AI** (Suggests cars based on preferences)  
+✔ **User Sentiment Review System** (Detects positive and negetive reviews)
+
 ✔ **AI-Based Price Predictions** (Predicts rental price trends)  
 ✔ **Booking System** (Dummy simulation with payment gateway UI)  
 ✔ **Interactive UI** with premium color theme and smooth UX  
-✔ **Leaflet.js Map Integration** (Car location display)  
-✔ **Fully Responsive** for mobile and desktop  
+
 
 ---
 
 ## 🧠 AI Features  
 
 🔹 **Dynamic Pricing AI:** Predicts car rental prices for the next 7 days using a trained model.  
-🔹 **Price Variations on Refresh:** Each refresh shows a slightly different price (±5% variation).  
-🔹 **Sentiment Analysis AI:** Ensures that car names do not contain inappropriate words.  
-🔹 **Car Recommendations AI:** Suggests the best cars based on the user’s search history and preferences.  
+🔹 **User Sentiment Review System:** It predicts that review is positive or negetive.  
+🔹 **AI ChatBot:** ChatBot System.  
 
 ---
 
@@ -58,14 +51,14 @@ It allows users to rent cars efficiently while utilizing AI for **dynamic pricin
 - **React.js** (Vite + TypeScript)  
 - **Redux Toolkit & RTK Query**  
 - **Material UI** (for modern UI components)  
-- **Leaflet.js** (for map integration)  
+
 
 ### **AI & Logic**  
 - **Node-NLP** (for AI-based analysis)  
-- **Custom AI Model** (for pricing predictions)  
+- **Custom AI Model** 
 
 ### **Authentication**  
-🔹 **Note:** Authentication is handled by a **separate backend service**.  
+🔹 **Note:** Authentication is handled by a **separate backend service** using express and typescript.  
 
 ---
 
@@ -73,7 +66,7 @@ It allows users to rent cars efficiently while utilizing AI for **dynamic pricin
 
 1️⃣ **Clone the Repository**  
 ```sh
-git clone https://github.com/your-username/car-rental-ai.git
+git clone https://github.com/shashwat75wt/your-username/car-rental-ai.git
 cd car-rental-ai
 ```
 
@@ -97,8 +90,7 @@ npm run dev
 
 - **View Cars:** Browse available cars and filter by price, category, and features.  
 - **Dynamic Pricing:** The price varies based on demand, day of the week, and AI predictions.  
-- **Sentiment Analysis:** The system ensures proper car names.  
-- **Recommendations:** AI suggests cars based on user preferences.  
+- **User Review Review Sentiment Analysis:** Detects user review is positive or negetive.  
 - **Booking Simulation:** Click "Book Now" to test the booking flow.  
 
 ---
@@ -106,37 +98,11 @@ npm run dev
 ## 🔐 Authentication Note  
 
 🔹 **This project uses a separate backend for user authentication.**  
-🔹 The AI-based features and car data management are handled in the **frontend AI system**.  
+🔹 The AI-based features and car data management are handled in the **frontend and Node-nlp**.  
 
----
+ 
 
-## 📸 Screenshots  
+ 
 
-### 🔹 **Home Page**  
-![Home Page](https://via.placeholder.com/600x300?text=Home+Page)  
 
-### 🔹 **Car Listing with AI-based Pricing**  
-![Car Listing](https://via.placeholder.com/600x300?text=Car+Listing)  
 
-### 🔹 **Predicted Pricing with Variations**  
-![Predicted Pricing](https://via.placeholder.com/600x300?text=Predicted+Pricing)  
-
----
-
-## 🤝 Contributors  
-
-👤 **Shashwat Pandey** – *Lead Developer & AI Integration*  
-👥 **Team Members** – *Design & Feature Development*  
-
----
-
-## 📜 License  
-
-📝 This project is licensed under the **MIT License**.  
-
----
-
-This README is **visually appealing, well-structured, and professional**. 🚀  
-You can replace placeholder images with actual screenshots for a **premium** touch.  
-
-Would you like me to tweak anything further? 😊
