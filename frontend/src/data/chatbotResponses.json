@@ -1,0 +1,43 @@
+[
+    {
+      "keywords": ["book", "rent", "reserve", "hire"],
+      "response": "You can book a car by visiting our 'Cars' page and selecting a vehicle. Let me know if you need help!"
+    },
+    {
+      "keywords": ["cancel", "refund", "change booking", "modify"],
+      "response": "To cancel or modify your booking, visit 'My Bookings' and select the appropriate option."
+    },
+    {
+      "keywords": ["documents", "license", "verification", "id proof"],
+      "response": "To rent a car, you need a valid driver's license and an identity proof."
+    },
+    {
+      "keywords": ["payment", "methods", "pay", "credit card"],
+      "response": "We accept credit/debit cards and online payments through our secure gateway."
+    },
+    {
+      "keywords": ["availability", "cars", "suv", "sedan", "luxury"],
+      "response": "You can check car availability on our 'Cars' page with filters for different car types."
+    },
+    {
+      "keywords": ["support", "help", "contact", "customer care"],
+      "response": "You can contact our support team at support@carrentalsystem.com or call +123456789."
+    },
+    {
+      "keywords": ["hours", "timing", "open", "working"],
+      "response": "Our rental service is available from 9 AM to 9 PM every day."
+    },
+    {
+      "keywords": ["discount", "offer", "coupon", "promo"],
+      "response": "We offer seasonal discounts. Check our 'Offers' section for current promotions!"
+    },
+    {
+      "keywords": ["fuel", "petrol", "diesel", "gas"],
+      "response": "Fuel policy depends on the rental agreement. Please check our terms for details."
+    },
+    {
+      "keywords": ["fine", "damage", "accident", "penalty"],
+      "response": "Any damages will be assessed upon return. Additional charges may apply as per our policy."
+    }
+  ]
+  

@@ -1,0 +1,1869 @@
+[
+  {
+      "intent": "greeting",
+      "examples": [
+          "hello",
+          "hi",
+          "hey",
+          "good morning",
+          "good evening",
+          "hello there",
+          "hi, how are you?"
+      ],
+      "responses": [
+          "Hello! How can I assist you?",
+          "Hi there! Need any help?",
+          "Hey! How can I help?"
+      ]
+  },
+  {
+      "intent": "car_availability",
+      "examples": [
+          "Are cars available?",
+          "Can I rent a car now?",
+          "Do you have any available cars?",
+          "Is there a car I can rent today?"
+      ],
+      "responses": [
+          "Yes! We have several cars available. Which type are you looking for?",
+          "Sure! What type of car do you need?"
+      ]
+  },
+  {
+      "intent": "pricing",
+      "examples": [
+          "What are the rental prices?",
+          "How much does it cost to rent a car?",
+          "Tell me the price for renting a car",
+          "What's the daily rental cost?"
+      ],
+      "responses": [
+          "Our rental prices start at $30/day. Would you like more details on a specific model?",
+          "Prices vary by model. Do you have a specific car in mind?"
+      ]
+  },
+  {
+      "intent": "location",
+      "examples": [
+          "Where is your office?",
+          "Where can I pick up the car?",
+          "What is your location?",
+          "Where are you located?"
+      ],
+      "responses": [
+          "Our main office is at XYZ Street, City. You can also pick up cars from multiple locations.",
+          "We have several pick-up points. Which area are you looking for?"
+      ]
+  },
+  {
+      "intent": "insurance",
+      "examples": [
+          "Do you provide insurance?",
+          "Is insurance included in the rental?",
+          "Tell me about insurance options",
+          "What type of insurance do you offer?"
+      ],
+      "responses": [
+          "Yes, we offer multiple insurance options for your rental. Would you like to know the details?",
+          "Insurance is available. Would you like to add it to your rental?"
+      ]
+  },
+  {
+      "intent": "fuel_policy",
+      "examples": [
+          "Do I have to return the car with a full tank?",
+          "What is the fuel policy?",
+          "How does refueling work?",
+          "Do you provide fuel?"
+      ],
+      "responses": [
+          "Our fuel policy requires you to return the car with the same fuel level as when rented.",
+          "You need to return the car with the same fuel level. Need more details?"
+      ]
+  },
+  {
+      "intent": "booking_cancellation",
+      "examples": [
+          "Can I cancel my booking?",
+          "What is the cancellation policy?",
+          "How do I cancel my booking?",
+          "Will I get a refund if I cancel?"
+      ],
+      "responses": [
+          "Yes, you can cancel up to 24 hours before the booking time. Would you like me to proceed with cancellation?",
+          "You can cancel anytime, but a fee may apply if it's less than 24 hours before pickup."
+      ]
+  },
+  {
+      "intent": "thank_you",
+      "examples": [
+          "Thanks",
+          "Thank you",
+          "Appreciate it",
+          "Thanks a lot"
+      ],
+      "responses": [
+          "You're welcome! Let me know if you need any more help.",
+          "Happy to help!"
+      ]
+  },
+  {
+      "intent": "car_types",
+      "examples": [
+          "What types of cars do you have?",
+          "Do you have SUVs?",
+          "Can I rent a sedan?",
+          "Do you offer luxury cars?"
+      ],
+      "responses": [
+          "We have sedans, SUVs, luxury cars, and more. What are you looking for?",
+          "Yes, we offer different categories. Do you have a specific preference?"
+      ]
+  },
+  {
+      "intent": "payment_methods",
+      "examples": [
+          "What payment methods do you accept?",
+          "Do you take credit cards?",
+          "Can I pay with cash?",
+          "Is online payment available?"
+      ],
+      "responses": [
+          "We accept credit cards, debit cards, and online payments. Cash payments are not available.",
+          "You can pay via card or online transfer. Need help with payment options?"
+      ]
+  },
+  {
+      "intent": "late_return",
+      "examples": [
+          "What if I return the car late?",
+          "Is there a late fee?",
+          "Can I extend my rental?",
+          "What happens if I'm late?"
+      ],
+      "responses": [
+          "If you return the car late, additional charges may apply. Would you like to extend your rental?",
+          "Late returns are subject to extra fees. Need to extend your rental period?"
+      ]
+  },
+  {
+      "intent": "discounts",
+      "examples": [
+          "Do you offer discounts?",
+          "Are there any promotions?",
+          "Can I get a discount on my rental?"
+      ],
+      "responses": [
+          "Yes! We offer discounts for long-term rentals and first-time customers. Would you like to check eligibility?",
+          "We have seasonal promotions. Let me check what's available for you."
+      ]
+  },
+  {
+      "intent": "contact_support",
+      "examples": [
+          "How can I contact customer support?",
+          "I need help with my booking",
+          "Can I talk to an agent?"
+      ],
+      "responses": [
+          "You can contact our support team at support@carrental.com or call +123456789.",
+          "Our support team is available 24/7. Would you like me to connect you?"
+      ]
+  },
+  {
+    "intent": "rental_duration",
+    "examples": [
+        "How long can I rent a car?",
+        "What is the maximum rental period?",
+        "Can I rent for a week?"
+    ],
+    "responses": [
+        "You can rent a car for a day, a week, or even a month. Let me know your preference."
+    ]
+},
+{
+    "intent": "payment_methods",
+    "examples": [
+        "What payment methods do you accept?",
+        "Can I pay with a credit card?",
+        "Do you accept PayPal?"
+    ],
+    "responses": [
+        "We accept credit/debit cards, PayPal, and bank transfers. Let me know how you'd like to pay."
+    ]
+},
+{
+    "intent": "late_return_policy",
+    "examples": [
+        "What happens if I return the car late?",
+        "Is there a penalty for late returns?",
+        "Can I extend my rental last minute?"
+    ],
+    "responses": [
+        "Late returns may incur an extra charge. Let us know in advance to avoid penalties."
+    ]
+},
+{
+    "intent": "luxury_car_availability",
+    "examples": [
+        "Do you have luxury cars?",
+        "Can I rent a sports car?",
+        "What high-end cars do you offer?"
+    ],
+    "responses": [
+        "Yes, we have luxury and sports cars available. Let me know what you're looking for."
+    ]
+},
+{
+    "intent": "electric_car_rental",
+    "examples": [
+        "Do you offer electric cars?",
+        "Can I rent a Tesla?",
+        "Do you have eco-friendly vehicles?"
+    ],
+    "responses": [
+        "Yes, we offer electric and hybrid cars for rental. Would you like to see the options?"
+    ]
+},
+{
+    "intent": "security_deposit",
+    "examples": [
+        "Is a deposit required?",
+        "How much is the security deposit?",
+        "Do I need to pay a deposit upfront?"
+    ],
+    "responses": [
+        "Yes, a security deposit is required and varies by car type. Let me know which car you're interested in."
+    ]
+},
+{
+    "intent": "roadside_assistance",
+    "examples": [
+        "Do you provide roadside assistance?",
+        "What if my car breaks down?",
+        "Is roadside help included?"
+    ],
+    "responses": [
+        "Yes, we offer 24/7 roadside assistance. Let us know if you need help."
+    ]
+},
+{
+    "intent": "pet_policy",
+    "examples": [
+        "Can I bring my pet in the rental car?",
+        "Are pets allowed?",
+        "Do you have a pet-friendly policy?"
+    ],
+    "responses": [
+        "Yes, pets are allowed in some vehicles. Let us know in advance so we can arrange a pet-friendly car."
+    ]
+},
+{
+    "intent": "age_requirement",
+    "examples": [
+        "How old do I have to be to rent a car?",
+        "What is the minimum age for renting?",
+        "Can an 18-year-old rent a car?"
+    ],
+    "responses": [
+        "You must be at least 21 to rent most cars, and 25 for luxury vehicles."
+    ]
+},
+{
+    "intent": "cross_border_travel",
+    "examples": [
+        "Can I take the rental car to another country?",
+        "Do you allow cross-border rentals?",
+        "Can I drive across states?"
+    ],
+    "responses": [
+        "Cross-border travel depends on the car and destination. Let us know where you plan to go."
+    ]
+},
+{
+  "intent": "child_seat_availability",
+  "examples": [
+      "Do you provide child seats?",
+      "Can I get a baby seat with my rental?",
+      "Are child seats available?"
+  ],
+  "responses": [
+      "Yes, child seats are available upon request. Let us know the age of your child for the best fit."
+  ]
+},
+{
+  "intent": "toll_policy",
+  "examples": [
+      "Are toll charges included?",
+      "Do I have to pay tolls separately?",
+      "How do toll fees work?"
+  ],
+  "responses": [
+      "Toll fees are not included in the rental price. You can pay them directly or opt for our toll pass service."
+  ]
+},
+{
+  "intent": "one_way_rental",
+  "examples": [
+      "Can I drop off the car at a different location?",
+      "Do you allow one-way rentals?",
+      "Can I return the car in another city?"
+  ],
+  "responses": [
+      "Yes, one-way rentals are available for an additional fee. Let us know your pickup and drop-off locations."
+  ]
+},
+{
+  "intent": "discounts_and_offers",
+  "examples": [
+      "Do you have any discounts?",
+      "Are there promotional offers available?",
+      "Can I get a discount on my rental?"
+  ],
+  "responses": [
+      "Yes, we offer seasonal discounts and loyalty rewards. Check our website or ask us for the latest offers."
+  ]
+},
+{
+  "intent": "gps_availability",
+  "examples": [
+      "Do rental cars come with GPS?",
+      "Can I get a navigation system?",
+      "Is GPS included?"
+  ],
+  "responses": [
+      "GPS is available as an add-on. Let us know if you'd like to include it in your rental."
+  ]
+},
+{
+  "intent": "rental_extension",
+  "examples": [
+      "Can I extend my rental period?",
+      "How do I increase my rental duration?",
+      "Is it possible to keep the car longer?"
+  ],
+  "responses": [
+      "Yes, you can extend your rental by contacting us in advance. Additional charges may apply."
+  ]
+},
+{
+  "intent": "smoking_policy",
+  "examples": [
+      "Can I smoke in the rental car?",
+      "Is smoking allowed in the vehicle?",
+      "What is your smoking policy?"
+  ],
+  "responses": [
+      "Smoking is not allowed in our rental cars. A cleaning fee may be charged for violations."
+  ]
+},
+{
+  "intent": "damage_policy",
+  "examples": [
+      "What if I damage the rental car?",
+      "Who is responsible for damages?",
+      "How does damage insurance work?"
+  ],
+  "responses": [
+      "If damage occurs, insurance coverage and security deposit terms apply. Let us know if you need details on coverage options."
+  ]
+},
+{
+  "intent": "pickup_and_delivery",
+  "examples": [
+      "Do you offer car delivery?",
+      "Can the car be delivered to my location?",
+      "Is pickup and drop-off service available?"
+  ],
+  "responses": [
+      "Yes, we offer car delivery services to select locations. Additional charges may apply."
+  ]
+},
+{
+  "intent": "corporate_rental",
+  "examples": [
+      "Do you offer corporate rentals?",
+      "Can I rent a car for my business?",
+      "Do you have long-term business rental plans?"
+  ],
+  "responses": [
+      "Yes, we offer corporate rental plans with flexible pricing. Let us know your requirements."
+  ]
+},
+{
+  "intent": "holiday_peak_pricing",
+  "examples": [
+      "Are prices higher during holidays?",
+      "Do you charge extra for peak seasons?",
+      "How does holiday pricing work?"
+  ],
+  "responses": [
+      "Yes, rental prices may be higher during peak seasons. Booking in advance can help secure better rates."
+  ]
+},
+{
+  "intent": "fuel_option",
+  "examples": [
+      "Can I prepay for fuel?",
+      "Do you offer a full tank option?",
+      "Can I return the car empty?"
+  ],
+  "responses": [
+      "Yes, you can prepay for a full tank or refuel before returning. Choose the option that suits you best."
+  ]
+},
+{
+  "intent": "refund_policy",
+  "examples": [
+      "How do refunds work?",
+      "Can I get my money back if I cancel?",
+      "What is your refund policy?"
+  ],
+  "responses": [
+      "Refunds are processed as per our cancellation policy. Let us know if you need assistance with a refund request."
+  ]
+},
+{
+  "intent": "loyalty_program",
+  "examples": [
+      "Do you have a loyalty program?",
+      "How do I earn rewards?",
+      "Can I get benefits for frequent rentals?"
+  ],
+  "responses": [
+      "Yes, we offer a loyalty program with exclusive discounts. Join today to start earning rewards."
+  ]
+},
+
+  {
+      "intent": "age_requirement",
+      "examples": [
+          "How old do I need to be to rent a car?",
+          "Is there a minimum age requirement?",
+          "Can I rent if I'm under 25?"
+      ],
+      "responses": [
+          "Drivers must be at least 21 years old to rent. Drivers under 25 may incur a young driver surcharge."
+      ]
+  },
+  {
+      "intent": "payment_methods",
+      "examples": [
+          "What payment methods do you accept?",
+          "Can I pay with cash?",
+          "Do you take digital wallets?"
+      ],
+      "responses": [
+          "We accept major credit cards, debit cards, and digital wallets. Cash payments are not accepted for security reasons."
+      ]
+  },
+  {
+      "intent": "additional_driver",
+      "examples": [
+          "Can someone else drive the rental car?",
+          "How do I add another driver?",
+          "Is there a fee for additional drivers?"
+      ],
+      "responses": [
+          "Yes, additional drivers can be added to your rental agreement for a small fee. Each driver must meet our age and license requirements."
+      ]
+  },
+  {
+      "intent": "insurance_options",
+      "examples": [
+          "What insurance options do you offer?",
+          "Is insurance included in the price?",
+          "Do I need additional coverage?"
+      ],
+      "responses": [
+          "Basic insurance is included, but we offer additional coverage options for complete peace of mind. We can discuss these options during pickup."
+      ]
+  },
+  {
+      "intent": "roadside_assistance",
+      "examples": [
+          "What if the car breaks down?",
+          "Do you provide roadside assistance?",
+          "Who do I call if there's a problem with the car?"
+      ],
+      "responses": [
+          "24/7 roadside assistance is included with every rental. The contact number is provided in your rental agreement."
+      ]
+  },
+  {
+      "intent": "reservation_modification",
+      "examples": [
+          "How do I change my reservation?",
+          "Can I modify my booking?",
+          "I need a different car than what I reserved"
+      ],
+      "responses": [
+          "You can modify your reservation online or by contacting our customer service. Changes are subject to availability and may affect pricing."
+      ]
+  },
+  {
+      "intent": "unlimited_mileage",
+      "examples": [
+          "Is there a mileage limit?",
+          "Do you offer unlimited miles?",
+          "How many kilometers can I drive?"
+      ],
+      "responses": [
+          "Most of our rentals include unlimited mileage. Some specialty vehicles may have mileage restrictions, which will be clearly stated in your agreement."
+      ]
+  },
+  {
+      "intent": "car_types_available",
+      "examples": [
+          "What types of cars do you have?",
+          "Do you rent SUVs?",
+          "Can I get a luxury vehicle?"
+      ],
+      "responses": [
+          "We offer a variety of vehicles from economy and compact cars to SUVs, luxury vehicles, and vans. Check our website for the full fleet."
+      ]
+  },
+  {
+      "intent": "airport_pickup",
+      "examples": [
+          "Can I pick up the car at the airport?",
+          "Do you have an airport location?",
+          "How does airport rental work?"
+      ],
+      "responses": [
+          "Yes, we have locations at major airports. We offer shuttle services or meet-and-greet options depending on the airport."
+      ]
+  },
+  {
+      "intent": "pet_policy",
+      "examples": [
+          "Can I bring my dog in the rental car?",
+          "Are pets allowed in your vehicles?",
+          "What's your pet policy?"
+      ],
+      "responses": [
+          "Pets are allowed in most vehicles, but please inform us in advance. Additional cleaning fees may apply if excessive pet hair or odor is present upon return."
+      ]
+  },
+  {
+      "intent": "after_hours_return",
+      "examples": [
+          "Can I return the car after hours?",
+          "What if I need to drop off the car when you're closed?",
+          "Is late-night return possible?"
+      ],
+      "responses": [
+          "Yes, after-hours return is available at most locations. We'll provide instructions for secure key drop-off in your rental agreement."
+      ]
+  },
+  {
+      "intent": "driving_abroad",
+      "examples": [
+          "Can I take the rental car to another country?",
+          "Are there restrictions on crossing borders?",
+          "Can I drive to Mexico or Canada?"
+      ],
+      "responses": [
+          "Cross-border travel may be allowed for certain destinations with prior authorization. Additional fees and insurance requirements apply."
+      ]
+  },
+  {
+      "intent": "license_requirements",
+      "examples": [
+          "Can I rent with a foreign driver's license?",
+          "What ID do I need to rent a car?",
+          "Do you accept international driving permits?"
+      ],
+      "responses": [
+          "We accept valid driver's licenses from most countries. International visitors may need an International Driving Permit alongside their national license."
+      ]
+  },
+  {
+      "intent": "vehicle_cleanliness",
+      "examples": [
+          "Are your cars clean?",
+          "How do you sanitize vehicles?",
+          "What are your cleaning protocols?"
+      ],
+      "responses": [
+          "All vehicles undergo thorough cleaning and sanitization between rentals, with special attention to high-touch surfaces for your safety."
+      ]
+  },
+  {
+      "intent": "free_cancellation",
+      "examples": [
+          "Can I cancel for free?",
+          "Is there a cancellation fee?",
+          "How long before pickup can I cancel?"
+      ],
+      "responses": [
+          "Most reservations offer free cancellation up to 48 hours before pickup. Prepaid reservations may have different cancellation policies."
+      ]
+  },
+  {
+      "intent": "rental_duration_minimum",
+      "examples": [
+          "What's the minimum rental period?",
+          "Can I rent for just a few hours?",
+          "Do you offer hourly rentals?"
+      ],
+      "responses": [
+          "Our standard minimum rental period is 24 hours. For shorter durations, consider our hourly rental options available at select locations."
+      ]
+  },
+  {
+      "intent": "car_seats_compatibility",
+      "examples": [
+          "Will my car seat fit in your rental?",
+          "Are all your cars compatible with ISOFIX/LATCH?",
+          "Which car is best for multiple car seats?"
+      ],
+      "responses": [
+          "Most of our vehicles are compatible with standard car seats. SUVs and minivans offer the most space for multiple car seats."
+      ]
+  },
+  {
+      "intent": "weekend_specials",
+      "examples": [
+          "Do you have weekend deals?",
+          "Are there special rates for weekend rentals?",
+          "Is it cheaper to rent on weekends?"
+      ],
+      "responses": [
+          "Yes, we offer weekend specials with reduced rates for pickups on Friday and returns on Monday. Check our website for current promotions."
+      ]
+  },
+  {
+      "intent": "luxury_car_availability",
+      "examples": [
+          "Do you have luxury cars available?",
+          "Can I rent a Mercedes or BMW?",
+          "What high-end vehicles do you offer?"
+      ],
+      "responses": [
+          "Yes, we offer premium and luxury vehicles including Mercedes, BMW, and Audi models at select locations. Advance reservation is recommended."
+      ]
+  },
+  {
+      "intent": "electric_vehicle_rental",
+      "examples": [
+          "Do you rent electric cars?",
+          "Can I get a Tesla or EV?",
+          "Are there hybrid options available?"
+      ],
+      "responses": [
+          "Yes, we offer electric and hybrid vehicles at select locations. Charging cables are included, and we can provide information about charging stations."
+      ]
+  },
+  {
+      "intent": "long_term_rental",
+      "examples": [
+          "What are your rates for monthly rentals?",
+          "Do you offer discounts for long-term?",
+          "Can I rent a car for several months?"
+      ],
+      "responses": [
+          "We offer competitive rates for long-term rentals with significant discounts compared to daily rates. Contact us for a personalized quote."
+      ]
+  },
+  {
+      "intent": "convertible_availability",
+      "examples": [
+          "Do you have convertibles?",
+          "Can I rent a car with a sunroof?",
+          "Are there any open-top vehicles available?"
+      ],
+      "responses": [
+          "Yes, convertibles are available at select locations, especially in warm-weather regions. Availability varies by season."
+      ]
+  },
+  {
+      "intent": "car_delivery_time",
+      "examples": [
+          "How long does car delivery take?",
+          "When will you deliver my rental car?",
+          "Can I get same-day delivery?"
+      ],
+      "responses": [
+          "Car delivery is typically scheduled within a 2-hour window. Same-day delivery may be available depending on location and vehicle availability."
+      ]
+  },
+  {
+      "intent": "deposit_amount",
+      "examples": [
+          "How much is the security deposit?",
+          "Do you hold a deposit on my card?",
+          "When do I get my deposit back?"
+      ],
+      "responses": [
+          "Security deposits typically range from $200-$500 depending on the vehicle. The hold is released within 3-5 business days after return."
+      ]
+  },
+  {
+      "intent": "breakdown_procedure",
+      "examples": [
+          "What if the car breaks down?",
+          "What should I do if there's a mechanical problem?",
+          "Who do I contact for car issues?"
+      ],
+      "responses": [
+          "In case of breakdown, call our 24/7 roadside assistance number provided in your rental agreement. We'll arrange help promptly."
+      ]
+  },
+  {
+      "intent": "fuel_type",
+      "examples": [
+          "What type of fuel does the car use?",
+          "Is it diesel or petrol?",
+          "Do your cars run on regular or premium gas?"
+      ],
+      "responses": [
+          "The fuel type is specified in your rental agreement and also marked near the fuel cap. Most of our fleet runs on regular unleaded gasoline."
+      ]
+  },
+  {
+      "intent": "car_features",
+      "examples": [
+          "Does the car have Bluetooth?",
+          "Are there USB ports in the rental?",
+          "Which cars have backup cameras?"
+      ],
+      "responses": [
+          "Most of our newer models include Bluetooth, USB ports, and backup cameras. Specific features for each vehicle are listed on our website."
+      ]
+  },
+  {
+      "intent": "snow_chains",
+      "examples": [
+          "Do you provide snow chains?",
+          "Can I get winter tires?",
+          "Are chains included for mountain driving?"
+      ],
+      "responses": [
+          "Snow chains and winter tires are available as add-ons in regions with winter conditions. Please request these in advance."
+      ]
+  },
+  {
+      "intent": "wifi_hotspot",
+      "examples": [
+          "Do your cars have WiFi?",
+          "Can I get internet in the rental car?",
+          "Is mobile hotspot available?"
+      ],
+      "responses": [
+          "Mobile WiFi hotspots are available as an optional add-on. Request this service when making your reservation."
+      ]
+  },
+  {
+      "intent": "towing_capacity",
+      "examples": [
+          "Can I tow with the rental car?",
+          "Which vehicles can pull a trailer?",
+          "What's the towing capacity?"
+      ],
+      "responses": [
+          "Select SUVs and trucks in our fleet are approved for towing. Towing must be requested in advance and additional insurance is required."
+      ]
+  },
+  {
+    "intent": "rental_duration_options",
+    "examples": [
+        "What are the rental duration options?",
+        "Can I rent a car for just a few hours?",
+        "Do you offer weekly or monthly rentals?"
+    ],
+    "responses": [
+        "We offer rentals from a few hours to several months. Let us know your preferred duration."
+    ]
+},
+{
+    "intent": "roadside_assistance",
+    "examples": [
+        "Do you provide roadside assistance?",
+        "What if the car breaks down?",
+        "Is emergency support available?"
+    ],
+    "responses": [
+        "Yes, we offer 24/7 roadside assistance for all rentals. Contact us if you need help."
+    ]
+},
+{
+    "intent": "driver_availability",
+    "examples": [
+        "Can I rent a car with a driver?",
+        "Do you offer chauffeur services?",
+        "Is a driver included?"
+    ],
+    "responses": [
+        "Yes, chauffeur services are available for an additional fee. Let us know your preference."
+    ]
+},
+{
+    "intent": "pet_policy",
+    "examples": [
+        "Can I bring my pet in the car?",
+        "Are pets allowed in rental cars?",
+        "Do you allow animals inside the vehicle?"
+    ],
+    "responses": [
+        "Yes, pets are allowed, but the car must be returned clean. A cleaning fee may apply if necessary."
+    ]
+},
+{
+    "intent": "early_return",
+    "examples": [
+        "Can I return the car early?",
+        "Do I get a refund if I return the car sooner?",
+        "What happens if I bring the car back before the due date?"
+    ],
+    "responses": [
+        "Yes, you can return the car early, but refunds depend on the rental agreement. Let us know if you need clarification."
+    ]
+},
+{
+    "intent": "weekend_specials",
+    "examples": [
+        "Do you have weekend deals?",
+        "Are there special offers for weekend rentals?",
+        "Can I get a discount for a weekend trip?"
+    ],
+    "responses": [
+        "Yes, we offer special rates for weekend rentals. Check our website or contact us for current deals."
+    ]
+},
+{
+    "intent": "fuel_type",
+    "examples": [
+        "Do you have electric cars?",
+        "Can I rent a hybrid vehicle?",
+        "What fuel types do you offer?"
+    ],
+    "responses": [
+        "We offer petrol, diesel, hybrid, and electric cars. Let us know your preference."
+    ]
+},
+{
+    "intent": "multiple_drivers",
+    "examples": [
+        "Can multiple people drive the rental car?",
+        "Do you allow additional drivers?",
+        "How do I add another driver to my booking?"
+    ],
+    "responses": [
+        "Yes, additional drivers can be added to the rental agreement. A small fee may apply."
+    ]
+},
+{
+    "intent": "young_driver_policy",
+    "examples": [
+        "Can I rent a car if I'm under 25?",
+        "Do you have an age limit for renting?",
+        "What is the minimum age for renting a car?"
+    ],
+    "responses": [
+        "The minimum age is 21, but young driver fees may apply for renters under 25."
+    ]
+},
+{
+    "intent": "cross_border_rental",
+    "examples": [
+        "Can I drive the rental car to another country?",
+        "Do you allow international travel?",
+        "Can I take the car across borders?"
+    ],
+    "responses": [
+        "Cross-border travel is allowed with prior approval and additional insurance. Let us know your destination."
+    ]
+},
+{
+    "intent": "security_deposit",
+    "examples": [
+        "Do I need to pay a security deposit?",
+        "How much is the security deposit?",
+        "Is a deposit required for booking?"
+    ],
+    "responses": [
+        "Yes, a security deposit is required. The amount depends on the car type and rental duration."
+    ]
+},
+{
+    "intent": "luxury_car_rental",
+    "examples": [
+        "Do you offer luxury cars?",
+        "Can I rent a high-end vehicle?",
+        "What luxury cars are available?"
+    ],
+    "responses": [
+        "Yes, we have a selection of luxury cars available. Let us know what model you prefer."
+    ]
+},
+{
+    "intent": "convertible_availability",
+    "examples": [
+        "Do you rent convertibles?",
+        "Can I get a convertible for a weekend?",
+        "Are sports cars available for rent?"
+    ],
+    "responses": [
+        "Yes, we offer convertibles and sports cars. Availability depends on location."
+    ]
+},
+{
+    "intent": "handicap_accessible_vehicle",
+    "examples": [
+        "Do you have wheelchair-accessible cars?",
+        "Can I rent a vehicle with a wheelchair ramp?",
+        "Are handicap-accessible cars available?"
+    ],
+    "responses": [
+        "Yes, we offer wheelchair-accessible vehicles. Contact us to check availability."
+    ]
+},
+{
+    "intent": "credit_card_requirement",
+    "examples": [
+        "Do I need a credit card to rent a car?",
+        "Can I pay with a debit card?",
+        "What payment methods do you accept?"
+    ],
+    "responses": [
+        "A credit card is required for security deposits. Some locations accept debit cards with conditions."
+    ]
+},
+{
+    "intent": "rental_inspection",
+    "examples": [
+        "Do I need to inspect the car before renting?",
+        "What should I check before driving off?",
+        "How do rental inspections work?"
+    ],
+    "responses": [
+        "Yes, we recommend inspecting the car for any damage before renting. Report any issues to avoid charges."
+    ]
+},
+{
+    "intent": "rental_contract",
+    "examples": [
+        "Do I need to sign a rental agreement?",
+        "What is included in the rental contract?",
+        "Can I see the terms and conditions before booking?"
+    ],
+    "responses": [
+        "Yes, all rentals require a signed contract. You can review the terms before confirming your booking."
+    ]
+},
+{
+    "intent": "seasonal_rental_rates",
+    "examples": [
+        "Are prices higher in summer?",
+        "Do you have different rates for winter?",
+        "How does pricing change with seasons?"
+    ],
+    "responses": [
+        "Yes, rental rates may vary by season. Booking early can help secure lower prices."
+    ]
+},
+{
+    "intent": "rental_loyalty_benefits",
+    "examples": [
+        "What benefits do frequent renters get?",
+        "Do you have a membership program?",
+        "Are there perks for returning customers?"
+    ],
+    "responses": [
+        "Frequent renters can enjoy discounts, free upgrades, and priority service through our loyalty program."
+    ]
+},
+{
+  "intent": "age_requirement",
+  "examples": [
+      "How old do I need to be to rent a car?",
+      "Is there a minimum age requirement?",
+      "Can I rent if I'm under 25?"
+  ],
+  "responses": [
+      "Drivers must be at least 21 years old to rent. Drivers under 25 may incur a young driver surcharge."
+  ]
+},
+{
+  "intent": "payment_methods",
+  "examples": [
+      "What payment methods do you accept?",
+      "Can I pay with cash?",
+      "Do you take digital wallets?"
+  ],
+  "responses": [
+      "We accept major credit cards, debit cards, and digital wallets. Cash payments are not accepted for security reasons."
+  ]
+},
+{
+  "intent": "additional_driver",
+  "examples": [
+      "Can someone else drive the rental car?",
+      "How do I add another driver?",
+      "Is there a fee for additional drivers?"
+  ],
+  "responses": [
+      "Yes, additional drivers can be added to your rental agreement for a small fee. Each driver must meet our age and license requirements."
+  ]
+},
+{
+  "intent": "insurance_options",
+  "examples": [
+      "What insurance options do you offer?",
+      "Is insurance included in the price?",
+      "Do I need additional coverage?"
+  ],
+  "responses": [
+      "Basic insurance is included, but we offer additional coverage options for complete peace of mind. We can discuss these options during pickup."
+  ]
+},
+{
+  "intent": "roadside_assistance",
+  "examples": [
+      "What if the car breaks down?",
+      "Do you provide roadside assistance?",
+      "Who do I call if there's a problem with the car?"
+  ],
+  "responses": [
+      "24/7 roadside assistance is included with every rental. The contact number is provided in your rental agreement."
+  ]
+},
+{
+  "intent": "reservation_modification",
+  "examples": [
+      "How do I change my reservation?",
+      "Can I modify my booking?",
+      "I need a different car than what I reserved"
+  ],
+  "responses": [
+      "You can modify your reservation online or by contacting our customer service. Changes are subject to availability and may affect pricing."
+  ]
+},
+{
+  "intent": "unlimited_mileage",
+  "examples": [
+      "Is there a mileage limit?",
+      "Do you offer unlimited miles?",
+      "How many kilometers can I drive?"
+  ],
+  "responses": [
+      "Most of our rentals include unlimited mileage. Some specialty vehicles may have mileage restrictions, which will be clearly stated in your agreement."
+  ]
+},
+{
+  "intent": "car_types_available",
+  "examples": [
+      "What types of cars do you have?",
+      "Do you rent SUVs?",
+      "Can I get a luxury vehicle?"
+  ],
+  "responses": [
+      "We offer a variety of vehicles from economy and compact cars to SUVs, luxury vehicles, and vans. Check our website for the full fleet."
+  ]
+},
+{
+  "intent": "airport_pickup",
+  "examples": [
+      "Can I pick up the car at the airport?",
+      "Do you have an airport location?",
+      "How does airport rental work?"
+  ],
+  "responses": [
+      "Yes, we have locations at major airports. We offer shuttle services or meet-and-greet options depending on the airport."
+  ]
+},
+{
+  "intent": "pet_policy",
+  "examples": [
+      "Can I bring my dog in the rental car?",
+      "Are pets allowed in your vehicles?",
+      "What's your pet policy?"
+  ],
+  "responses": [
+      "Pets are allowed in most vehicles, but please inform us in advance. Additional cleaning fees may apply if excessive pet hair or odor is present upon return."
+  ]
+},
+{
+  "intent": "after_hours_return",
+  "examples": [
+      "Can I return the car after hours?",
+      "What if I need to drop off the car when you're closed?",
+      "Is late-night return possible?"
+  ],
+  "responses": [
+      "Yes, after-hours return is available at most locations. We'll provide instructions for secure key drop-off in your rental agreement."
+  ]
+},
+{
+  "intent": "driving_abroad",
+  "examples": [
+      "Can I take the rental car to another country?",
+      "Are there restrictions on crossing borders?",
+      "Can I drive to Mexico or Canada?"
+  ],
+  "responses": [
+      "Cross-border travel may be allowed for certain destinations with prior authorization. Additional fees and insurance requirements apply."
+  ]
+},
+{
+  "intent": "license_requirements",
+  "examples": [
+      "Can I rent with a foreign driver's license?",
+      "What ID do I need to rent a car?",
+      "Do you accept international driving permits?"
+  ],
+  "responses": [
+      "We accept valid driver's licenses from most countries. International visitors may need an International Driving Permit alongside their national license."
+  ]
+},
+{
+  "intent": "vehicle_cleanliness",
+  "examples": [
+      "Are your cars clean?",
+      "How do you sanitize vehicles?",
+      "What are your cleaning protocols?"
+  ],
+  "responses": [
+      "All vehicles undergo thorough cleaning and sanitization between rentals, with special attention to high-touch surfaces for your safety."
+  ]
+},
+{
+  "intent": "free_cancellation",
+  "examples": [
+      "Can I cancel for free?",
+      "Is there a cancellation fee?",
+      "How long before pickup can I cancel?"
+  ],
+  "responses": [
+      "Most reservations offer free cancellation up to 48 hours before pickup. Prepaid reservations may have different cancellation policies."
+  ]
+},
+{
+  "intent": "rental_duration_minimum",
+  "examples": [
+      "What's the minimum rental period?",
+      "Can I rent for just a few hours?",
+      "Do you offer hourly rentals?"
+  ],
+  "responses": [
+      "Our standard minimum rental period is 24 hours. For shorter durations, consider our hourly rental options available at select locations."
+  ]
+},
+{
+  "intent": "car_seats_compatibility",
+  "examples": [
+      "Will my car seat fit in your rental?",
+      "Are all your cars compatible with ISOFIX/LATCH?",
+      "Which car is best for multiple car seats?"
+  ],
+  "responses": [
+      "Most of our vehicles are compatible with standard car seats. SUVs and minivans offer the most space for multiple car seats."
+  ]
+},
+{
+  "intent": "weekend_specials",
+  "examples": [
+      "Do you have weekend deals?",
+      "Are there special rates for weekend rentals?",
+      "Is it cheaper to rent on weekends?"
+  ],
+  "responses": [
+      "Yes, we offer weekend specials with reduced rates for pickups on Friday and returns on Monday. Check our website for current promotions."
+  ]
+},
+{
+  "intent": "luxury_car_availability",
+  "examples": [
+      "Do you have luxury cars available?",
+      "Can I rent a Mercedes or BMW?",
+      "What high-end vehicles do you offer?"
+  ],
+  "responses": [
+      "Yes, we offer premium and luxury vehicles including Mercedes, BMW, and Audi models at select locations. Advance reservation is recommended."
+  ]
+},
+{
+  "intent": "electric_vehicle_rental",
+  "examples": [
+      "Do you rent electric cars?",
+      "Can I get a Tesla or EV?",
+      "Are there hybrid options available?"
+  ],
+  "responses": [
+      "Yes, we offer electric and hybrid vehicles at select locations. Charging cables are included, and we can provide information about charging stations."
+  ]
+},
+{
+  "intent": "long_term_rental",
+  "examples": [
+      "What are your rates for monthly rentals?",
+      "Do you offer discounts for long-term?",
+      "Can I rent a car for several months?"
+  ],
+  "responses": [
+      "We offer competitive rates for long-term rentals with significant discounts compared to daily rates. Contact us for a personalized quote."
+  ]
+},
+{
+  "intent": "convertible_availability",
+  "examples": [
+      "Do you have convertibles?",
+      "Can I rent a car with a sunroof?",
+      "Are there any open-top vehicles available?"
+  ],
+  "responses": [
+      "Yes, convertibles are available at select locations, especially in warm-weather regions. Availability varies by season."
+  ]
+},
+{
+  "intent": "car_delivery_time",
+  "examples": [
+      "How long does car delivery take?",
+      "When will you deliver my rental car?",
+      "Can I get same-day delivery?"
+  ],
+  "responses": [
+      "Car delivery is typically scheduled within a 2-hour window. Same-day delivery may be available depending on location and vehicle availability."
+  ]
+},
+{
+  "intent": "deposit_amount",
+  "examples": [
+      "How much is the security deposit?",
+      "Do you hold a deposit on my card?",
+      "When do I get my deposit back?"
+  ],
+  "responses": [
+      "Security deposits typically range from $200-$500 depending on the vehicle. The hold is released within 3-5 business days after return."
+  ]
+},
+{
+  "intent": "breakdown_procedure",
+  "examples": [
+      "What if the car breaks down?",
+      "What should I do if there's a mechanical problem?",
+      "Who do I contact for car issues?"
+  ],
+  "responses": [
+      "In case of breakdown, call our 24/7 roadside assistance number provided in your rental agreement. We'll arrange help promptly."
+  ]
+},
+{
+  "intent": "fuel_type",
+  "examples": [
+      "What type of fuel does the car use?",
+      "Is it diesel or petrol?",
+      "Do your cars run on regular or premium gas?"
+  ],
+  "responses": [
+      "The fuel type is specified in your rental agreement and also marked near the fuel cap. Most of our fleet runs on regular unleaded gasoline."
+  ]
+},
+{
+  "intent": "car_features",
+  "examples": [
+      "Does the car have Bluetooth?",
+      "Are there USB ports in the rental?",
+      "Which cars have backup cameras?"
+  ],
+  "responses": [
+      "Most of our newer models include Bluetooth, USB ports, and backup cameras. Specific features for each vehicle are listed on our website."
+  ]
+},
+{
+  "intent": "snow_chains",
+  "examples": [
+      "Do you provide snow chains?",
+      "Can I get winter tires?",
+      "Are chains included for mountain driving?"
+  ],
+  "responses": [
+      "Snow chains and winter tires are available as add-ons in regions with winter conditions. Please request these in advance."
+  ]
+},
+{
+  "intent": "wifi_hotspot",
+  "examples": [
+      "Do your cars have WiFi?",
+      "Can I get internet in the rental car?",
+      "Is mobile hotspot available?"
+  ],
+  "responses": [
+      "Mobile WiFi hotspots are available as an optional add-on. Request this service when making your reservation."
+  ]
+},
+{
+  "intent": "towing_capacity",
+  "examples": [
+      "Can I tow with the rental car?",
+      "Which vehicles can pull a trailer?",
+      "What's the towing capacity?"
+  ],
+  "responses": [
+      "Select SUVs and trucks in our fleet are approved for towing. Towing must be requested in advance and additional insurance is required."
+  ]
+},
+{
+  "intent": "parking_assistance",
+  "examples": [
+      "Do your cars have parking sensors?",
+      "Which vehicles have self-parking?",
+      "Are there parking cameras?"
+  ],
+  "responses": [
+      "Many of our newer models feature parking assistance systems including sensors and cameras. Premium vehicles may include self-parking features."
+  ]
+},
+{
+  "intent": "baby_stroller",
+  "examples": [
+      "Can I rent a stroller with my car?",
+      "Do you provide baby equipment?",
+      "Is it possible to get a stroller?"
+  ],
+  "responses": [
+      "Yes, we offer baby strollers and other infant equipment as add-ons at select locations. Please reserve in advance to ensure availability."
+  ]
+},
+{
+  "intent": "chauffeur_service",
+  "examples": [
+      "Do you offer drivers with rentals?",
+      "Can I hire a chauffeur?",
+      "Is driver service available?"
+  ],
+  "responses": [
+      "Yes, professional chauffeur services are available upon request. Please book at least 48 hours in advance and note that hourly rates apply."
+  ]
+},
+{
+  "intent": "diesel_options",
+  "examples": [
+      "Do you have diesel cars?",
+      "Which vehicles run on diesel?",
+      "Can I specifically request a diesel engine?"
+  ],
+  "responses": [
+      "Yes, we offer diesel vehicles in select categories. You can specify this preference when booking, subject to availability."
+  ]
+},
+{
+  "intent": "car_location_tracking",
+  "examples": [
+      "Can I track where the car is?",
+      "Do you offer GPS tracking?",
+      "Is there a way to locate the rental vehicle?"
+  ],
+  "responses": [
+      "Our mobile app provides location services for your rental vehicle. This feature is available for security and convenience purposes."
+  ]
+},
+{
+  "intent": "child_lock_features",
+  "examples": [
+      "Do your cars have child locks?",
+      "How do I enable child safety features?",
+      "Which vehicles are most child-friendly?"
+  ],
+  "responses": [
+      "All our family vehicles are equipped with child safety locks. Our staff can demonstrate how to activate these features at pickup."
+  ]
+},
+{
+  "intent": "smoke_free_guarantee",
+  "examples": [
+      "Are all your cars non-smoking?",
+      "Can I request a guaranteed smoke-free vehicle?",
+      "What if my car smells like smoke?"
+  ],
+  "responses": [
+      "All our vehicles are designated as non-smoking. If you detect smoke odor in your rental, please notify us immediately for a replacement."
+  ]
+},
+{
+  "intent": "luxury_suv_availability",
+  "examples": [
+      "Do you rent luxury SUVs?",
+      "Can I get a Range Rover or Cadillac Escalade?",
+      "What premium SUVs do you have?"
+  ],
+  "responses": [
+      "Yes, we offer luxury SUVs including Range Rover, Cadillac Escalade, and BMW X models at premium locations. Advance reservation is highly recommended."
+  ]
+},
+{
+  "intent": "multiple_rentals_discount",
+  "examples": [
+      "Is there a discount for renting two cars?",
+      "Do you offer deals for multiple vehicle rentals?",
+      "Can I get a better rate for renting a few cars?"
+  ],
+  "responses": [
+      "Yes, we offer multi-car discounts for simultaneous rentals. Please contact our reservations team for details and special rates."
+  ]
+},
+{
+  "intent": "mobility_equipment",
+  "examples": [
+      "Do you offer hand controls?",
+      "Are wheelchair accessible vehicles available?",
+      "Can I get mobility assistance equipment?"
+  ],
+  "responses": [
+      "Yes, we offer vehicles with hand controls and other mobility equipment. Please request these specialized accommodations at least 72 hours in advance."
+  ]
+},
+{
+  "intent": "student_discounts",
+  "examples": [
+      "Do you have discounts for students?",
+      "Is there a special rate with student ID?",
+      "Can college students get better prices?"
+  ],
+  "responses": [
+      "Yes, we offer student discounts with valid ID. Check our website for current promotions or mention your student status when booking."
+  ]
+},
+{
+  "intent": "vehicle_delivery_radius",
+  "examples": [
+      "How far will you deliver the car?",
+      "What's your delivery range?",
+      "Do you deliver to suburban areas?"
+  ],
+  "responses": [
+      "We deliver within a 30-mile radius of our locations. Delivery fees vary based on distance and may be waived for longer rentals."
+  ]
+},
+{
+  "intent": "minivan_capacity",
+  "examples": [
+      "How many people can fit in your minivans?",
+      "What's the seating capacity of your vans?",
+      "Do you have 8-passenger vehicles?"
+  ],
+  "responses": [
+      "Our minivans typically seat 7-8 passengers comfortably. We also offer 12-15 passenger vans for larger groups at select locations."
+  ]
+},
+{
+  "intent": "military_discount",
+  "examples": [
+      "Do you offer military discounts?",
+      "Is there a special rate for veterans?",
+      "Can active duty personnel get discounts?"
+  ],
+  "responses": [
+      "Yes, we proudly offer special rates for active military, veterans, and their families with valid ID. Thank you for your service."
+  ]
+},
+{
+  "intent": "automatic_transmission",
+  "examples": [
+      "Are all your cars automatic?",
+      "Do you have manual transmission vehicles?",
+      "Can I request a stick shift car?"
+  ],
+  "responses": [
+      "Most of our fleet features automatic transmission. Manual transmission vehicles are available in select categories and locations upon request."
+  ]
+},
+{
+  "intent": "senior_citizen_rates",
+  "examples": [
+      "Do you have senior discounts?",
+      "Is there a special rate for older drivers?",
+      "Are there age-related discounts for 65+?"
+  ],
+  "responses": [
+      "Yes, we offer special rates for senior citizens age 65 and older with valid ID. These discounts apply to most vehicle categories."
+  ]
+},
+{
+  "intent": "contactless_pickup",
+  "examples": [
+      "Do you offer contactless pickup?",
+      "Can I get the car without going to the counter?",
+      "Is there a self-service option?"
+  ],
+  "responses": [
+      "Yes, contactless pickup is available through our mobile app. Simply complete the check-in process on your phone and proceed directly to your vehicle."
+  ]
+},
+{
+  "intent": "emergency_rental",
+  "examples": [
+      "My car broke down, can I get an immediate rental?",
+      "Do you have emergency rentals available?",
+      "How quickly can I get a car in an emergency?"
+  ],
+  "responses": [
+      "We prioritize emergency rentals and can often provide vehicles within 1-2 hours. Contact our customer service for expedited processing."
+  ]
+},
+{
+  "intent": "fleet_age",
+  "examples": [
+      "How new are your rental cars?",
+      "What's the average age of your fleet?",
+      "Do you rent older vehicles?"
+  ],
+  "responses": [
+      "Our fleet consists primarily of vehicles under 2 years old. Premium categories typically feature the newest models in our inventory."
+  ]
+},
+{
+  "intent": "ski_rack",
+  "examples": [
+      "Can I get a ski rack?",
+      "Do you offer ski or snowboard carriers?",
+      "Are roof racks for skis available?"
+  ],
+  "responses": [
+      "Yes, ski and snowboard racks are available as add-ons, especially at our mountain-adjacent locations. Please reserve these in advance."
+  ]
+},
+{
+  "intent": "bicycle_rack",
+  "examples": [
+      "Do you provide bike racks?",
+      "Can I carry bicycles on the rental car?",
+      "Which vehicles can accommodate bike carriers?"
+  ],
+  "responses": [
+      "Bicycle racks are available as add-ons for most SUVs and larger vehicles. Please request this equipment when making your reservation."
+  ]
+},
+{
+  "intent": "roof_box",
+  "examples": [
+      "Can I rent a roof box for luggage?",
+      "Do you offer cargo carriers?",
+      "Are roof storage options available?"
+  ],
+  "responses": [
+      "Yes, roof cargo boxes are available for rent with compatible vehicles. These provide extra storage space for luggage or equipment."
+  ]
+},
+{
+  "intent": "camping_equipment",
+  "examples": [
+      "Do you rent camping gear with cars?",
+      "Can I get camping equipment with my rental?",
+      "Are camping packages available?"
+  ],
+  "responses": [
+      "At select outdoor destinations, we offer camping packages including tents, sleeping bags, and basic gear. Please book these packages in advance."
+  ]
+},
+{
+  "intent": "booster_seat",
+  "examples": [
+      "Do you provide booster seats?",
+      "Can I rent a booster for my child?",
+      "What ages do your booster seats fit?"
+  ],
+  "responses": [
+      "Yes, we offer booster seats suitable for children 4-12 years old (40-100 lbs). Please reserve in advance to ensure availability."
+  ]
+},
+{
+  "intent": "sports_car_rental",
+  "examples": [
+      "Can I rent a sports car?",
+      "Do you have high-performance vehicles?",
+      "What sports models do you offer?"
+  ],
+  "responses": [
+      "Yes, we offer sports and performance vehicles at select locations. Additional security deposits and age restrictions may apply."
+  ]
+},
+{
+  "intent": "car_inspection",
+  "examples": [
+      "How do I check the car condition?",
+      "Is there an inspection process?",
+      "Should I document damages before driving?"
+  ],
+  "responses": [
+      "We conduct a thorough inspection with you at pickup. We recommend taking photos and noting any existing damage on your rental agreement for your protection."
+  ]
+},
+{
+  "intent": "extra_keys",
+  "examples": [
+      "Can I get an extra key?",
+      "Do you provide two sets of keys?",
+      "What if I lose the car key?"
+  ],
+  "responses": [
+      "Most rentals include one key set. Additional keys may be available upon request. Lost keys incur replacement fees as specified in your agreement."
+  ]
+},
+{
+  "intent": "pandemic_cleaning",
+  "examples": [
+      "What COVID precautions do you take?",
+      "How do you sanitize vehicles during pandemic?",
+      "Are there special cleaning protocols for health safety?"
+  ],
+  "responses": [
+      "We implement enhanced cleaning protocols including disinfection of high-touch surfaces and sanitization between rentals for your health and safety."
+  ]
+},
+{
+  "intent": "satellite_radio",
+  "examples": [
+      "Do your cars have SiriusXM?",
+      "Is satellite radio available?",
+      "Can I get a car with satellite radio?"
+  ],
+  "responses": [
+      "Many of our vehicles are equipped with SiriusXM satellite radio. Please request this feature when booking if it's important to you."
+  ]
+},
+{
+  "intent": "monthly_rental_rates",
+  "examples": [
+      "What are your monthly rates?",
+      "How much for a 30-day rental?",
+      "Is it cheaper to rent by the month?"
+  ],
+  "responses": [
+      "Monthly rentals typically offer savings of 15-30% compared to daily rates. Contact us for a personalized quote based on your vehicle preferences."
+  ]
+},
+{
+  "intent": "truck_rental",
+  "examples": [
+      "Do you rent pickup trucks?",
+      "Can I get a truck for moving?",
+      "What size trucks do you offer?"
+  ],
+  "responses": [
+      "Yes, we offer pickup trucks and cargo vans for moving and hauling. Multiple sizes are available to accommodate different needs."
+  ]
+},
+{
+  "intent": "multiple_state_travel",
+  "examples": [
+      "Can I drive through multiple states?",
+      "Are there restrictions on interstate travel?",
+      "Do I need permission to cross state lines?"
+  ],
+  "responses": [
+      "Interstate travel within the country is generally permitted with no restrictions. Your rental agreement covers nationwide travel."
+  ]
+},
+{
+  "intent": "motorcycle_rental",
+  "examples": [
+      "Do you rent motorcycles?",
+      "Can I get a motorbike instead of a car?",
+      "Are scooters available for rent?"
+  ],
+  "responses": [
+      "We specialize in car rentals and do not offer motorcycles or scooters. We'd be happy to refer you to trusted motorcycle rental partners."
+  ]
+},
+{
+  "intent": "ferry_travel",
+  "examples": [
+      "Can I take the rental car on a ferry?",
+      "Are there restrictions for ferry crossings?",
+      "Is island travel allowed with rentals?"
+  ],
+  "responses": [
+      "Ferry travel is generally permitted for most rentals. Please inform us of planned ferry crossings when booking."
+  ]
+},
+{
+  "intent": "digital_rental_agreement",
+  "examples": [
+      "Can I get my rental agreement electronically?",
+      "Do you offer paperless contracts?",
+      "Is there a digital copy of my rental terms?"
+  ],
+  "responses": [
+      "Yes, we provide digital rental agreements via email and through our mobile app for your convenience and environmental sustainability."
+  ]
+},
+{
+  "intent": "debit_card_policy",
+  "examples": [
+      "Can I rent with a debit card?",
+      "What's your policy on debit cards?",
+      "Do you require a credit card or can I use debit?"
+  ],
+  "responses": [
+      "We accept debit cards with additional verification requirements. A higher security hold may apply compared to credit card rentals."
+  ]
+},
+{
+  "intent": "diesel_availability",
+  "examples": [
+      "Do you have diesel vehicles?",
+      "Can I specifically request a diesel car?",
+      "Which models come in diesel options?"
+  ],
+  "responses": [
+      "Yes, diesel options are available in select vehicle categories, particularly SUVs and larger vehicles. Please specify when booking."
+  ]
+},
+{
+  "intent": "remote_area_driving",
+  "examples": [
+      "Can I take the car off-road?",
+      "Are there restrictions for unpaved roads?",
+      "Can I drive in remote areas?"
+  ],
+  "responses": [
+      "Most standard rentals are for paved road use only. Select SUVs may be permitted on maintained unpaved roads. Off-roading is not permitted."
+  ]
+},
+{
+  "intent": "rewards_program_tiers",
+  "examples": [
+      "What levels does your loyalty program have?",
+      "How do I reach premium status?",
+      "What are the rewards program tiers?"
+  ],
+  "responses": [
+      "Our loyalty program features three tiers: Classic, Gold, and Platinum. Each level offers increasing benefits based on rental frequency and spending."
+  ]
+},
+{
+  "intent": "corporate_accounts",
+  "examples": [
+      "How do I set up a business account?",
+      "What are the benefits of corporate rentals?",
+      "Do you offer volume discounts for companies?"
+  ],
+  "responses": [
+      "Our corporate program offers customized rates, dedicated account management, and simplified billing. Contact our business team to set up an account."
+  ]
+},
+{
+  "intent": "online_check_in",
+  "examples": [
+      "Can I check in online before pickup?",
+      "Is there a way to speed up the pickup process?",
+      "Do you offer advance check-in?"
+  ],
+  "responses": [
+      "Yes, online check-in is available through our website or mobile app. This expedites the pickup process significantly."
+  ]
+},
+{
+  "intent": "entertainment_system",
+  "examples": [
+      "Do your cars have DVD players?",
+      "Which vehicles have rear entertainment?",
+      "Are there screens for kids in the back?"
+  ],
+  "responses": [
+      "Select minivans and SUVs feature rear entertainment systems. Please request this feature when booking if it's important for your journey."
+  ]
+},
+{
+  "intent": "airport_shuttle_service",
+  "examples": [
+      "Is there a shuttle from the airport?",
+      "How do I get from the terminal to rental location?",
+      "Do you provide airport transfers?"
+  ],
+  "responses": [
+      "We offer complimentary shuttle service between the airport terminal and our nearby rental locations. Shuttles typically run every 10-15 minutes."
+  ]
+},
+{
+  "intent": "rent_to_own",
+  "examples": [
+      "Do you have rent-to-own options?",
+      "Can rental payments go toward purchase?",
+      "Is there a way to buy the car after renting?"
+  ],
+  "responses": [
+      "We focus on short and long-term rentals and do not offer rent-to-own programs. Our sister company handles vehicle sales if you're interested in purchasing."
+  ]
+},
+{
+  "intent": "car_subscription",
+  "examples": [
+      "Do you offer car subscriptions?",
+      "Is there a monthly membership program?",
+      "Can I subscribe instead of renting?"
+  ],
+  "responses": [
+      "Yes, we offer flexible subscription plans with monthly fees covering vehicle use, maintenance, and insurance. Contact us for program details."
+  ]
+},
+{
+  "intent": "trailer_rental",
+  "examples": [
+      "Can I rent a trailer with the car?",
+      "Do you offer trailers for hauling?",
+      "What trailer options are available?"
+  ],
+  "responses": [
+      "Yes, we offer trailer rentals at select locations. Additional insurance requirements apply for vehicles with trailers."
+  ]
+},
+{
+  "intent": "limousine_service",
+  "examples": [
+      "Do you rent limousines?",
+      "Can I get a limo for special events?",
+      "Are luxury transportation services available?"
+  ],
+  "responses": [
+      "We offer limousine and luxury chauffeur services for special events and airport transfers. Please book at least 48 hours in advance."
+  ]
+},
+{
+  "intent": "credit_check",
+  "examples": [
+      "Do you check credit score for rentals?",
+      "Is there a credit verification process?",
+      "Will renting affect my credit score?"
+  ],
+  "responses": [
+      "We do not perform credit checks for standard rentals. Your rental activity does not impact your credit score."
+  ]
+},
+{
+  "intent": "tire_pressure",
+  "examples": [
+      "What if the tire pressure light comes on?",
+      "Who checks tire pressure?",
+      "Do I need to monitor tire inflation?"
+  ],
+  "responses": [
+      "We check tire pressure before each rental. If the warning light appears, please check the pressure and contact us if needed. Safety first!"
+  ]
+},
+{
+  "intent": "holiday_hours",
+  "examples": [
+      "Are you open on holidays?",
+      "What are your Christmas hours?",
+      "Can I return on a holiday?"
+  ],
+  "responses": [
+      "Most locations maintain limited hours during major holidays. Please check our website or call ahead for specific holiday schedules."
+  ]
+},
+{
+  "intent": "apple_carplay",
+  "examples": [
+      "Do your cars have Apple CarPlay?",
+      "Which vehicles support CarPlay?",
+      "Can I connect my iPhone to the car?"
+  ],
+  "responses": [
+      "Many of our newer models feature Apple CarPlay and Android Auto. This feature is standard in our premium categories and available in most other vehicles."
+  ]
+}
+
+]
